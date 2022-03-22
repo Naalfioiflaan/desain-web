@@ -1,0 +1,57 @@
+p {
+    text-align: justify;
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+/* bisa lebih spesifik, .p1 p{}. gitu */
+.p1.p3 {
+    color: aqua;
+}
+
+#p2 {
+    text-decoration-color: blue;
+}
+
+/* programer pake kelas buat bedain */
+
+body {
+    background-color: brown;
+    /* masukin gambar */
+    background-image: url();
+    /* bisa pake linear gradient buat nimpa warna bg nya */
+    /* ngatur uk bg, dia ngerepeat uk asli gambar itu */
+    background-repeat: repeat-x;
+}
+
+/* bisa nyingkat penulisan kelas, p1,p2 */
+
+.container {
+    color: aliceblue;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 18px;
+}
+
+/* pseudo class */
+ul li a:hover{
+    color:beige;
+}
+
+ul li a:active{
+    color: aqua;
+}
+
+
+
